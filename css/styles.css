@@ -143,17 +143,18 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.71;
-}
-
-address {
-    color: #FFFFFF;
-   /* чтобы увидеть надпись: */
-    background:grey;
+color: #FFFFFF;
+/* чтобы увидеть надпись: */
+background:grey;
 }
 
 address > a {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+address > p {
+    margin: 0px;
 }
 
 .social-title {
