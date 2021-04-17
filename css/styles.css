@@ -1,0 +1,199 @@
+
+:root {
+    --accent-color: #2196F3;
+}
+
+ul {
+        list-style: none;
+}
+
+body {
+    font-family: 'Roboto','Times New Roman', sans-serif;
+    color: #212121;
+    letter-spacing: 0.03em; 
+
+}
+
+/* header */
+
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: #212121;
+}
+
+.logo > p {
+    color: var(--accent-color);
+}
+
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14; 
+    list-style: none
+}
+
+
+
+
+.link {
+    text-decoration: none;
+    color: #212121;
+}
+
+.list-item .link {
+    color: #757575;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+
+
+/* main */
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
+    /* чтобы увидеть надпись: */
+    background:grey;   
+}
+
+.hero-button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.hero-button:hover {
+    background: var(--accent-color);
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.button-position     {
+    text-align: center;
+}
+
+/* section advantages */
+
+.advantages-title {
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+.advantages-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;    
+}
+
+/* section activity */
+
+.activity-title, .team-title, .clients-title  {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1,17;
+    text-align: center;
+}
+
+.activity-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #FFFFFF;
+        /* чтобы увидеть надпись: */
+    background:grey;
+}
+
+/* section team */
+
+.team-list {
+    font-size: 16px;
+    line-height: 1.19;    
+}
+
+.person-name {
+    font-weight: 500;
+}
+
+.person-position {
+    font-weight: 400;
+    color: #757575;
+}
+
+/* footer */
+address {
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+}
+
+address {
+    color: #FFFFFF;
+   /* чтобы увидеть надпись: */
+    background:grey;
+}
+
+address > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.social-title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/* **********PAGE PORTFOLIO*********** */
+
+.filter-button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.62;s
+}
+
+.filter-button:hover {
+    background: var(--accent-color);
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.prorosion-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.prorosion-discription {
+    font-size: 16px;
+    line-height: 1,88;
+    color: #757575;
+}
+
+
+
+
+
+
+ 
