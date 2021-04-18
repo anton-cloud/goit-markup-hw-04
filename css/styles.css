@@ -52,8 +52,13 @@ body {
     color: var(--accent-color);
 }
 
+.link.current {
+    color: var(--accent-color);
+}
 
-
+/* .link:visited {
+    color: red;
+} */
 /* main */
 
 .hero-title {
@@ -135,6 +140,15 @@ body {
 }
 
 /* footer */
+
+
+footer > .logo {
+    color: #FFFFFF;
+/* чтобы увидеть надпись: */
+    background:grey;
+}
+
+
 address {
 font-size: 14px;
 font-style: normal;
@@ -147,7 +161,7 @@ background:grey;
 
 address > a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 address > p {
