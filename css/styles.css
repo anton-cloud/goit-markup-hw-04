@@ -56,10 +56,18 @@ img {
 /* =============END css reset============= */
 
 /* =============START components============= */
+.section {
+    padding-top: 94px
+}
 /* =============END components============= */
 
 
 /* =============START header============= */
+
+.page-header .container {
+    border-bottom: 1px solid #ECECEC;
+    display: flex;
+}
 
 .site-nav {
     display: flex;
@@ -147,7 +155,7 @@ img {
 
 /* =============START main============= */
     /* =============START hero============= */
-.hero {
+.hero .container{
 /* чтобы увидеть надпись: */
     background:grey; 
     padding-top: 200px;
@@ -173,6 +181,8 @@ img {
 
 .hero-button {
     padding: 6px 22px;
+
+    border: 0;
     border-radius: 4px;
 
     font-size: 16px;
@@ -194,16 +204,13 @@ img {
 /* =============END hero============= */
 /* =============START advantages===== */
 
-.advantages{
-    padding-top: 94px;
-}
 .advantages-list {
     /* outline: 2px solid red; */
     
     display: flex;;
     flex-wrap: wrap;
-    margin-top: calc( -1 * var(--advantages-gap));
-    margin-left: calc( -1 * var(--advantages-gap));
+    margin-top: calc(-1 * var(--advantages-gap));
+    margin-left: calc(-1 * var(--advantages-gap));
 
     /* background:tomato; */
 }
@@ -230,8 +237,8 @@ img {
 }
 /* =============END advantages===== */
 /* =============START activity===== */
-.activity{
-    padding-top: 94px;
+
+.activity {
     padding-bottom: 94px;
 }
 
@@ -247,24 +254,24 @@ img {
 .activity-item {
     /* outline: 2px solid blue; */
 
-    flex-basis: calc(100%/3 - var(--advantages-gap));
+    flex-basis: calc(100% / 3 - var(--advantages-gap));
     margin-left: var(--advantages-gap);
     margin-top: var(--advantages-gap);
 
 }
 
-.activity-title, .team-title, .clients-title  {
+.section-title  {
     /* outline: 2px solid yellowgreen; */
     
     font-size: 36px;
     font-weight: 700;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
 }
 
-.activity-title {
-    margin-bottom: 50px;
-}
+    .activity-title {
+        margin-bottom: 50px;
+    }
 
 .activity-text {
     color:var(--primary-white-color);
@@ -281,10 +288,6 @@ img {
 /* =============END activity===== */
 
 /* =============START team===== */
-.team {
-    padding-top: 94px;
-    margin-bottom: 94px;
-}
 
 .team-title {
     margin-bottom: 50px;
@@ -293,8 +296,8 @@ img {
 .team-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc( -1 * var(--advantages-gap));
-    margin-left: calc( -1 * var(--advantages-gap));
+    margin-top: calc(-1 * var(--advantages-gap));
+    margin-left: calc(-1 * var(--advantages-gap));
 
     font-size: 16px;
     line-height: 1.19;    
@@ -303,7 +306,7 @@ img {
 .team-item {
     /* outline: 2px solid red; */
 
-    flex-basis: calc(100%/4 - var(--advantages-gap));
+    flex-basis: calc(100% / 4 - var(--advantages-gap));
     margin-left: var(--advantages-gap);
     margin-top: var(--advantages-gap);
 
@@ -325,7 +328,7 @@ img {
 /* =============END main===== */
 
 /* =============START footer===== */
-footer {
+footer .container {
 /* чтобы увидеть надпись: */
     background:grey;
     padding-top: 60px;
@@ -359,21 +362,9 @@ address > p {
     margin: 0px;
 }
 
-.social-title {
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
-}
 /* =============END footer===== */
 
 /* **********PAGE PORTFOLIO*********** */
-
-.portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .filter-list {
     display: flex;
@@ -397,7 +388,7 @@ address > p {
 .portfolio-item {
     /* outline: 2px solid yellowgreen; */
 
-    flex-basis: calc(100%/3- var(--advantages-gap));
+    flex-basis: calc(100% / 3 - var(--advantages-gap));
     margin-left: var(--advantages-gap);
     margin-top: var(--advantages-gap);
 }
@@ -417,7 +408,9 @@ address > p {
 
 .filter-button {
     padding: 6px 22px;
-
+    border: 0;
+    border-radius: 4px;
+    
     font-size: 16px;
     font-weight: 700;
     line-height: 1.62;
@@ -440,7 +433,7 @@ address > p {
     color: var(--primary-grey-color);
     
     font-size: 16px;
-    line-height: 1,88;  
+    line-height: 1.88;  
 }
 
 
