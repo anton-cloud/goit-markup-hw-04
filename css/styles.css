@@ -431,9 +431,11 @@ img {
 .clients-link:focus {
     border: 1px solid var(--accent-color);
     border-radius: 4px;
+    fill: var(--accent-color);
 }
 
-.clients-item:hover .clients-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
     fill: var(--accent-color);
 }
 
